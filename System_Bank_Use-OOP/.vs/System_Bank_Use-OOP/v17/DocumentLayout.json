@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\OneDrive\\Programming Advices\\GitHub Project\\test\\System_Bank_Use-OOP\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{59AAE990-FB24-4A1D-8B8C-F4E940842AA0}|System_Bank_Use-OOP.vcxproj|D:\\OneDrive\\Programming Advices\\GitHub Project\\test\\System_Bank_Use-OOP\\System_Bank_Use-OOP.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{59AAE990-FB24-4A1D-8B8C-F4E940842AA0}|System_Bank_Use-OOP.vcxproj|solutionrelative:System_Bank_Use-OOP.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{59AAE990-FB24-4A1D-8B8C-F4E940842AA0}|System_Bank_Use-OOP.vcxproj|D:\\OneDrive\\Programming Advices\\GitHub Project\\test\\System_Bank_Use-OOP\\clsChar.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{59AAE990-FB24-4A1D-8B8C-F4E940842AA0}|System_Bank_Use-OOP.vcxproj|solutionrelative:clsChar.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{59AAE990-FB24-4A1D-8B8C-F4E940842AA0}|System_Bank_Use-OOP.vcxproj|D:\\OneDrive\\Programming Advices\\GitHub Project\\test\\System_Bank_Use-OOP\\clsString.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{59AAE990-FB24-4A1D-8B8C-F4E940842AA0}|System_Bank_Use-OOP.vcxproj|solutionrelative:clsString.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{59AAE990-FB24-4A1D-8B8C-F4E940842AA0}|System_Bank_Use-OOP.vcxproj|D:\\OneDrive\\Programming Advices\\GitHub Project\\test\\System_Bank_Use-OOP\\System_Bank_Use-OOP.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{59AAE990-FB24-4A1D-8B8C-F4E940842AA0}|System_Bank_Use-OOP.vcxproj|solutionrelative:System_Bank_Use-OOP.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,11 +30,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "clsChar.h",
               "DocumentMoniker": "D:\\OneDrive\\Programming Advices\\GitHub Project\\test\\System_Bank_Use-OOP\\clsChar.h",
               "RelativeDocumentMoniker": "clsChar.h",
@@ -47,7 +47,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "clsString.h",
               "DocumentMoniker": "D:\\OneDrive\\Programming Advices\\GitHub Project\\test\\System_Bank_Use-OOP\\clsString.h",
               "RelativeDocumentMoniker": "clsString.h",
@@ -59,7 +59,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "clsBankClient.h",
               "DocumentMoniker": "D:\\OneDrive\\Programming Advices\\GitHub Project\\test\\System_Bank_Use-OOP\\clsBankClient.h",
               "RelativeDocumentMoniker": "clsBankClient.h",
@@ -71,7 +71,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "clsPerson.h",
               "DocumentMoniker": "D:\\OneDrive\\Programming Advices\\GitHub Project\\test\\System_Bank_Use-OOP\\clsPerson.h",
               "RelativeDocumentMoniker": "clsPerson.h",
@@ -83,15 +83,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "System_Bank_Use-OOP.cpp",
               "DocumentMoniker": "D:\\OneDrive\\Programming Advices\\GitHub Project\\test\\System_Bank_Use-OOP\\System_Bank_Use-OOP.cpp",
               "RelativeDocumentMoniker": "System_Bank_Use-OOP.cpp",
               "ToolTip": "D:\\OneDrive\\Programming Advices\\GitHub Project\\test\\System_Bank_Use-OOP\\System_Bank_Use-OOP.cpp",
               "RelativeToolTip": "System_Bank_Use-OOP.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAKAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-16T13:03:25.917Z"
+              "WhenOpened": "2024-10-16T13:03:25.917Z",
+              "EditorCaption": ""
             }
           ]
         }
