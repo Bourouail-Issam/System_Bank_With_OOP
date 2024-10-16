@@ -130,7 +130,10 @@
     <ClCompile Include="System_Bank_Use-OOP.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="clsBankClient.h" />
+    <ClInclude Include="clsChar.h" />
     <ClInclude Include="clsPerson.h" />
+    <ClInclude Include="clsString.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
