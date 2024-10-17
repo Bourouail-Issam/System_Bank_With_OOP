@@ -7,7 +7,7 @@
 class clsBankClient : public clsPerson
 {
 private:
-	enum enMode { EmptyMode = 0, UpdateMode = 1 };
+	enum enMode { EmptyMode = 0, UpdateMode = 1 , AddNewMode = 2};
 	enMode _Mode;
 	string _AccountNumber;
 	string _PinCode;
@@ -93,6 +93,23 @@ private:
 			}
 		}
 		_SaveCleintsDataToFile(_vClients);
+	}
+
+	void _AddDataLineToFile(string stDataLine)
+	{
+		fstream MyFill;
+		MyFill.open("Clients.txt", ios::out | ios::app);
+
+		if (MyFill.is_open())
+		{
+			MyFill << stDataLine << endl;
+			MyFill.close();
+		}
+	}
+
+	void _AddNew()
+	{
+		_AddDataLineToFile(_ConvertClientObjectToLine(*this));
 	}
 
 public:
@@ -213,20 +230,46 @@ public:
 		return (!clinet1.IsEmpty());
 	}
 
-	enum enSaveResults { svFaildEmptyObject = 0, svSucceeded = 1 };
+	enum enSaveResults { svFaildEmptyObject = 0, svSucceeded = 1, svFaildAccountNumberExists = 2 };
 
 	enSaveResults Save() {
 
 		switch (_Mode)
 		{
-		case clsBankClient::EmptyMode:
-			return enSaveResults::svFaildEmptyObject;
+		    case clsBankClient::EmptyMode:
+		    {
+				if (IsEmpty()) {
+					return enSaveResults::svFaildEmptyObject;
+				}
+		    }
+		    case clsBankClient::UpdateMode:
+		    {
+		    	_Update();
+		    	return enSaveResults::svSucceeded;
+		    }
+			case clsBankClient::enMode::AddNewMode:
+			{
+				//This will add new record to file or database
 
-		case clsBankClient::UpdateMode:
-			_Update();
-			return enSaveResults::svSucceeded;
-
+				if (clsBankClient::IsClientExist(_AccountNumber)) {
+					return enSaveResults::svFaildAccountNumberExists;
+				}
+				else 
+				{
+					_AddNew();
+					//We need to set the mode to update after add new
+					_Mode = enMode::UpdateMode;
+					return enSaveResults::svSucceeded;
+				}
+				break;
+			}
+		    
 		}
+	}
+
+	static clsBankClient GetAddNewClientObject(string AccountNumber)
+	{
+		return clsBankClient(enMode::AddNewMode, "", "", "", "", AccountNumber, "", 0);
 	}
 };
 
