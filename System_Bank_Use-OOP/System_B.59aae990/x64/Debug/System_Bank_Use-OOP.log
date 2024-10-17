@@ -1,6 +1,6 @@
 ﻿  System_Bank_Use-OOP.cpp
 D:\OneDrive\Programming Advices\GitHub Project\OOP_System_Bank\System_Bank_Use-OOP\clsString.h(54,24): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
 D:\OneDrive\Programming Advices\GitHub Project\OOP_System_Bank\System_Bank_Use-OOP\clsString.h(256,24): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
-D:\OneDrive\Programming Advices\GitHub Project\OOP_System_Bank\System_Bank_Use-OOP\clsBankClient.h(158,11): warning C4129: 'C': unrecognized character escape sequence
-D:\OneDrive\Programming Advices\GitHub Project\OOP_System_Bank\System_Bank_Use-OOP\clsBankClient.h(268,1): warning C4715: 'clsBankClient::Save': not all control paths return a value
+D:\OneDrive\Programming Advices\GitHub Project\OOP_System_Bank\System_Bank_Use-OOP\clsBankClient.h(169,11): warning C4129: 'C': unrecognized character escape sequence
+D:\OneDrive\Programming Advices\GitHub Project\OOP_System_Bank\System_Bank_Use-OOP\clsBankClient.h(279,1): warning C4715: 'clsBankClient::Save': not all control paths return a value
   System_Bank_Use-OOP.vcxproj -> D:\OneDrive\Programming Advices\GitHub Project\OOP_System_Bank\System_Bank_Use-OOP\x64\Debug\System_Bank_Use-OOP.exe

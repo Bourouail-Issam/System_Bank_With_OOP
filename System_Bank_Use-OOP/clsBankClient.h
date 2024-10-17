@@ -12,6 +12,7 @@ private:
 	string _AccountNumber;
 	string _PinCode;
 	float _AccountBalance;
+	bool _MarkedForDelete = false;
 
 	static clsBankClient _ConvertLineToClientObject(string Line, string Seperator = "#//#") {
 
@@ -61,7 +62,7 @@ private:
 		return vClients;
 	}
 
-	static void _SaveCleintsDataToFile(vector <clsBankClient> vClients) {
+	static void _SaveClientsDataToFile(vector <clsBankClient> vClients) {
 
 		fstream MyFill;
 		MyFill.open("Clients.txt", ios::out); //OverWrite Mode
@@ -71,8 +72,11 @@ private:
 			string DataLine;
 			for (clsBankClient& C : vClients)
 			{
-				DataLine = _ConvertClientObjectToLine(C);
-				MyFill << DataLine << endl;
+				if (C._MarkedForDelete == false )
+				{
+					DataLine = _ConvertClientObjectToLine(C);
+					MyFill << DataLine << endl;
+				}
 			}
 
 			MyFill.close();
@@ -92,7 +96,7 @@ private:
 				break;
 			}
 		}
-		_SaveCleintsDataToFile(_vClients);
+		_SaveClientsDataToFile(_vClients);
 	}
 
 	void _AddDataLineToFile(string stDataLine)
@@ -128,7 +132,7 @@ public:
 		return (_Mode == enMode::EmptyMode);
 	}
 
-	// Read Only Propertie for _AccountNumber
+	// Read Only Propertie Get for _AccountNumber
 	string GetAccountNumber() {
 		return _AccountNumber;
 	}
@@ -152,6 +156,13 @@ public:
 		_AccountBalance = AccountBalance;
 	}
 	__declspec(property(get = GetAccountBalance, put = SetAccountBalance)) float AccountBalance;
+
+	// Read Only Propertie Get for _MarkedForDelete
+	bool GetMarkedForDeleted()
+	{
+		return _MarkedForDelete;
+	}
+	__declspec(property(get = GetMarkedForDeleted)) bool MarkedForDelete;
 
 	void Print()
 	{
@@ -270,6 +281,26 @@ public:
 	static clsBankClient GetAddNewClientObject(string AccountNumber)
 	{
 		return clsBankClient(enMode::AddNewMode, "", "", "", "", AccountNumber, "", 0);
+	}
+
+	bool Delete()
+	{
+		vector <clsBankClient> vClients;
+		vClients = _LoadClientsDataFromFile();
+
+		for (clsBankClient& C : vClients) 
+		{
+			if(C.AccountNumber == _AccountNumber)
+			{
+				C._MarkedForDelete = true;
+				break;
+			}
+		}
+
+		_SaveClientsDataToFile(vClients);
+		*this = _GetEmptyClientObject(); 
+
+		return true;
 	}
 };
 
