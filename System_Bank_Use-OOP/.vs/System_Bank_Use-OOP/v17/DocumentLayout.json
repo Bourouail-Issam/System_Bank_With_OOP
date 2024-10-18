@@ -52,7 +52,7 @@
               "RelativeDocumentMoniker": "System_Bank_Use-OOP.cpp",
               "ToolTip": "D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\System_Bank_Use-OOP.cpp",
               "RelativeToolTip": "System_Bank_Use-OOP.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAEBAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-16T13:03:25.917Z",
               "EditorCaption": ""
@@ -65,7 +65,7 @@
               "RelativeDocumentMoniker": "clsBankClient.h",
               "ToolTip": "D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\clsBankClient.h",
               "RelativeToolTip": "clsBankClient.h",
-              "ViewState": "AQIAAIwAAAAAAAAAAAAAABgBAAA7AAAA",
+              "ViewState": "AQIAAJ4AAAAAAAAAAAAAADYBAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-10-16T13:41:33.716Z",
               "EditorCaption": ""
@@ -80,8 +80,7 @@
               "RelativeToolTip": "clsDate.h",
               "ViewState": "AQIAALkBAAAAAAAAAAAAAOYBAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-16T14:10:07.134Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-16T14:10:07.134Z"
             },
             {
               "$type": "Document",
@@ -91,7 +90,7 @@
               "RelativeDocumentMoniker": "clsUtil.h",
               "ToolTip": "D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\clsUtil.h",
               "RelativeToolTip": "clsUtil.h",
-              "ViewState": "AQIAAI4AAAAAAAAAAAAiwMcAAAAAAAAA",
+              "ViewState": "AQIAAJoAAAAAAAAAAAAEwKQAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-10-18T02:03:16.722Z",
               "EditorCaption": ""
@@ -106,8 +105,7 @@
               "RelativeToolTip": "clsInputValidate.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAI4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-16T14:10:46.238Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-16T14:10:46.238Z"
             },
             {
               "$type": "Document",
@@ -119,8 +117,7 @@
               "RelativeToolTip": "clsString.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-16T13:47:28.468Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-16T13:47:28.468Z"
             },
             {
               "$type": "Document",
@@ -132,8 +129,7 @@
               "RelativeToolTip": "clsChar.h",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAUAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-16T13:48:24.24Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-16T13:48:24.24Z"
             },
             {
               "$type": "Document",

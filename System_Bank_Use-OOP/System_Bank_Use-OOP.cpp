@@ -180,6 +180,49 @@ void ShowClientsList()
     cout << "________________________________________________\n" << endl;
 }
 
+
+void PrintClientRecordBalanceLine(clsBankClient Client)
+{
+    cout << "| " << left << setw(15) << Client.AccountNumber;
+    cout << "| " << left << setw(40) << Client.FullName();
+    cout << "| " << left << setw(12) << Client.AccountBalance;
+}
+
+void ShowTotalBalances()
+{
+    vector <clsBankClient> vClients = clsBankClient::GetClientsList();
+    cout << clsUtil::Tabs(5) << "Client List (" << vClients.size() << ") Client(s).";
+    cout << "\n_______________________________________________________";
+    cout << "________________________________________________\n" << endl;
+
+    cout << "| " << left << setw(15) << "Account Number";
+    cout << "| " << left << setw(20) << "Client Name";
+    cout << "| " << left << setw(12) << "Balance";
+
+    cout << "\n_______________________________________________________";
+    cout << "________________________________________________\n" << endl;
+
+    double TotalBalances = clsBankClient::GetTotalBalances();
+
+
+    if (vClients.size() == 0)
+    {
+        cout << clsUtil::Tabs(4) << "No Clients Available In The System!";
+    }
+    else
+    {
+        for (clsBankClient Client : vClients)
+        {
+            PrintClientRecordBalanceLine(Client);
+            cout << endl;
+        }
+    }
+    cout << "\n_______________________________________________________";
+    cout << "________________________________________________\n" << endl;
+    cout << clsUtil::Tabs(6) << "    Total Balances = " << TotalBalances << endl;
+    cout << clsUtil::Tabs(6) << "    (" << clsUtil::NumberToText(TotalBalances) << ")" << endl;
+}
+
 int main()
 {
 //  clsPerson Person1("Issam", "Bourouail", "issam@gmail.com", "0625423126");
@@ -210,7 +253,11 @@ int main()
 
  // DeleteClient();
 
-    ShowClientsList();
+ // ShowClientsList();
+
+    ShowTotalBalances();
+
+
     return 0;
 }
 
