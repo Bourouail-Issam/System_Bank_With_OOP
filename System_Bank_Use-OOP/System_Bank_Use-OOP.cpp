@@ -3,7 +3,9 @@
 #include"clsPerson.h"
 #include"clsBankClient.h"
 #include"clsInputValidate.h"
+#include"clsUtil.h"
 #include <iostream>
+#include <iomanip>
 
 void ReadClientInfo(clsBankClient& Client)
 {
@@ -134,35 +136,81 @@ void DeleteClient()
     }
 }
 
+void PrintClientRecordLine(clsBankClient Client)
+{
+    cout << "| " << left << setw(15) << Client.AccountNumber;
+    cout << "| " << left << setw(20) << Client.FullName();
+    cout << "| " << left << setw(18) << Client.Phone;
+    cout << "| " << left << setw(20) << Client.Email;
+    cout << "| " << left << setw(10) << Client.PinCode;
+    cout << "| " << left << setw(12) << Client.AccountBalance;
+}
+
+void ShowClientsList()
+{
+    vector <clsBankClient> vClients = clsBankClient::GetClientsList();
+    
+    cout << clsUtil::Tabs(5) <<"Client List (" << vClients.size() << ") Client(s).";
+    cout << "\n_______________________________________________________";
+    cout << "________________________________________________\n" << endl;
+
+    cout << "| " << left << setw(15) << "Account Number";
+    cout << "| " << left << setw(20) << "Client Name";
+    cout << "| " << left << setw(18) << "Phone";
+    cout << "| " << left << setw(20) << "Email";
+    cout << "| " << left << setw(10) << "Pin Code";
+    cout << "| " << left << setw(12) << "Balance";
+
+    cout << "\n_______________________________________________________";
+    cout << "________________________________________________\n" << endl;
+
+    if(vClients.size() == 0)
+    {
+        cout << clsUtil::Tabs(4) << "No Clients Available In The System!";
+    }
+    else
+    {
+        for(clsBankClient Client : vClients)
+        {
+            PrintClientRecordLine(Client);
+            cout << endl;
+        }
+    }
+    cout << "\n_______________________________________________________";
+    cout << "________________________________________________\n" << endl;
+}
+
 int main()
 {
-	//clsPerson Person1("Issam", "Bourouail", "issam@gmail.com", "0625423126");
-	//Person1.Print();
+//  clsPerson Person1("Issam", "Bourouail", "issam@gmail.com", "0625423126");
+//  Person1.Print();
 
-	////Test clsBankClient
- //   clsBankClient Client1 = clsBankClient::Find("A101");
- //   if (!Client1.IsEmpty())
- //      cout << "\nClient Found :-)\n";
- //   else
- //      cout << "\nClient Was not Found :-(\n";
+ // Test clsBankClient
+ // clsBankClient Client1 = clsBankClient::Find("A101");
+ // if (!Client1.IsEmpty())
+ //    cout << "\nClient Found :-)\n";
+ // else
+ //    cout << "\nClient Was not Found :-(\n";
+ //
+ // Client1.Print();
+
+ // clsBankClient Client2 = clsBankClient::Find("A101", "1234");
+ // if (!Client2.IsEmpty())
+ //    cout << "\nClient Found :-)\n";
+ // else
+ //    cout << "\nClient Was not Found :-(\n";
  // 
- //   Client1.Print();
+ // Client2.Print();
 
- //   clsBankClient Client2 = clsBankClient::Find("A101", "1234");
- //   if (!Client2.IsEmpty())
- //      cout << "\nClient Found :-)\n";
- //   else
- //      cout << "\nClient Was not Found :-(\n";
- //   
- //   Client2.Print();
+ // cout << "\nIs Client Exist? " << clsBankClient::IsClientExist("A101");
 
- //   cout << "\nIs Client Exist? " << clsBankClient::IsClientExist("A101");
+ // UpDateClient();
 
- //   UpDateClient();
+ // AddNewClient();
 
-  //  AddNewClient();
+ // DeleteClient();
 
-    DeleteClient();
-	return 0;
+    ShowClientsList();
+    return 0;
 }
 
