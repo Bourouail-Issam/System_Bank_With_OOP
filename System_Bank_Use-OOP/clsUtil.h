@@ -166,7 +166,7 @@ public:
     {
         string t = "";
 
-        for (int i = 1; i < NumberOfTabs; i++)
+        for (int i = 1; i <= NumberOfTabs; i++)
         {
             t += "\t";
         }

@@ -3,6 +3,7 @@ D:\OneDrive\Programming Advices\GitHub Project\OOP_System_Bank\System_Bank_Use-O
 D:\OneDrive\Programming Advices\GitHub Project\OOP_System_Bank\System_Bank_Use-OOP\clsString.h(256,24): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
 D:\OneDrive\Programming Advices\GitHub Project\OOP_System_Bank\System_Bank_Use-OOP\clsBankClient.h(169,11): warning C4129: 'C': unrecognized character escape sequence
 D:\OneDrive\Programming Advices\GitHub Project\OOP_System_Bank\System_Bank_Use-OOP\clsUtil.h(9,17): warning C4091: 'static ': ignored on left of 'clsUtil::EnCharType' when no variable is declared
-D:\OneDrive\Programming Advices\GitHub Project\OOP_System_Bank\System_Bank_Use-OOP\System_Bank_Use-OOP.cpp(223,66): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\OneDrive\Programming Advices\GitHub Project\OOP_System_Bank\System_Bank_Use-OOP\clsMainScreen.h(19,16): warning C4244: 'initializing': conversion from 'float' to 'short', possible loss of data
+D:\OneDrive\Programming Advices\GitHub Project\OOP_System_Bank\System_Bank_Use-OOP\System_Bank_Use-OOP.cpp(224,66): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 D:\OneDrive\Programming Advices\GitHub Project\OOP_System_Bank\System_Bank_Use-OOP\clsBankClient.h(279,1): warning C4715: 'clsBankClient::Save': not all control paths return a value
   System_Bank_Use-OOP.vcxproj -> D:\OneDrive\Programming Advices\GitHub Project\OOP_System_Bank\System_Bank_Use-OOP\x64\Debug\System_Bank_Use-OOP.exe

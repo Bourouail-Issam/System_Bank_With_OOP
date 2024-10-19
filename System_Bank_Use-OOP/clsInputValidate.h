@@ -111,7 +111,7 @@ public:
 		return clsDate::IsValidDate(Date);
 	}
 
-	static float ReadFloatNumber(string ErrorMessage = "Invalid Number, Enter again\n")
+	static float ReadFloatNumber(string ErrorMessage = "Invalid Number, Enter again : ")
 	{
 		float Number;
 		while (!(cin >> Number)) {
@@ -119,10 +119,11 @@ public:
 			cin.ignore(numeric_limits<streamsize>::max(), '\n');
 			cout << ErrorMessage;
 		}
+
 		return Number;
 	}
 
-	static float ReadFloatNumberBetween(float From, float To, string ErrorMessage = "Number is not within range, Enter again:\n")
+	static float ReadFloatNumberBetween(float From, float To, string ErrorMessage = "Number is not within range, Enter again : ")
 	{
 		float Number = ReadFloatNumber();
 

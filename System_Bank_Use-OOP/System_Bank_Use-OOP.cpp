@@ -2,6 +2,7 @@
 //
 #include"clsPerson.h"
 #include"clsBankClient.h"
+#include"clsMainScreen.h"
 #include"clsInputValidate.h"
 #include"clsUtil.h"
 #include <iostream>
@@ -255,8 +256,9 @@ int main()
 
  // ShowClientsList();
 
-    ShowTotalBalances();
+ // ShowTotalBalances();
 
+    clsMainScreen::ShowMainMenue();
 
     return 0;
 }
