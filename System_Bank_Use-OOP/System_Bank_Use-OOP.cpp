@@ -9,42 +9,6 @@
 #include <iomanip>
 
 
-//void UpDateClient()
-//{
-//    string AccoutNumber;
-//    cout << "Please Enter Client Accout Number : ";
-//    AccoutNumber = clsInputValidate::ReadString();
-//
-//    while (!clsBankClient::IsClientExist(AccoutNumber))
-//    {
-//        cout << "Accout Number is not found, Choose another one : ";
-//        AccoutNumber = clsInputValidate::ReadString();
-//    }
-//
-//    clsBankClient client = clsBankClient::Find(AccoutNumber);
-//    client.Print();
-//
-//    cout << "\nUpDate Client Info : ";
-//    cout << "\n--------------------\n";
-//    ReadClientInfo(client);
-//
-//    clsBankClient::enSaveResults SaveResult;
-//    SaveResult = client.Save();
-//
-//    switch (SaveResult)
-//    {
-//    case clsBankClient::svSucceeded:
-//        cout << "\nAccount Updated Successfuly :-)\n";
-//        client.Print();
-//        break;
-//
-//    case clsBankClient::svFaildEmptyObject:
-//        cout << "\nError account was not saved because it's empty\n";
-//        break;
-//    }
-//}
-
-
   
 void PrintClientRecordBalanceLine(clsBankClient Client)
 {
