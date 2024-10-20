@@ -164,6 +164,8 @@ public:
 	}
 	__declspec(property(get = GetMarkedForDeleted)) bool MarkedForDelete;
 
+	/*
+	No UI Related code inside Object
 	void Print()
 	{
 		cout << "\Client Card:";
@@ -178,7 +180,7 @@ public:
 		cout << "\nBalance       : " << _AccountBalance;
 		cout << "\n___________________\n";
 	}
-
+	*/
 	static clsBankClient Find(string AccountNumber)
 	{
 		vector <clsBankClient> vClients;
