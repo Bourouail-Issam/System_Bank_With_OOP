@@ -136,52 +136,7 @@ void DeleteClient()
         }
     }
 }
-
-void PrintClientRecordLine(clsBankClient Client)
-{
-    cout << "| " << left << setw(15) << Client.AccountNumber;
-    cout << "| " << left << setw(20) << Client.FullName();
-    cout << "| " << left << setw(18) << Client.Phone;
-    cout << "| " << left << setw(20) << Client.Email;
-    cout << "| " << left << setw(10) << Client.PinCode;
-    cout << "| " << left << setw(12) << Client.AccountBalance;
-}
-
-void ShowClientsList()
-{
-    vector <clsBankClient> vClients = clsBankClient::GetClientsList();
-    
-    cout << clsUtil::Tabs(5) <<"Client List (" << vClients.size() << ") Client(s).";
-    cout << "\n_______________________________________________________";
-    cout << "________________________________________________\n" << endl;
-
-    cout << "| " << left << setw(15) << "Account Number";
-    cout << "| " << left << setw(20) << "Client Name";
-    cout << "| " << left << setw(18) << "Phone";
-    cout << "| " << left << setw(20) << "Email";
-    cout << "| " << left << setw(10) << "Pin Code";
-    cout << "| " << left << setw(12) << "Balance";
-
-    cout << "\n_______________________________________________________";
-    cout << "________________________________________________\n" << endl;
-
-    if(vClients.size() == 0)
-    {
-        cout << clsUtil::Tabs(4) << "No Clients Available In The System!";
-    }
-    else
-    {
-        for(clsBankClient Client : vClients)
-        {
-            PrintClientRecordLine(Client);
-            cout << endl;
-        }
-    }
-    cout << "\n_______________________________________________________";
-    cout << "________________________________________________\n" << endl;
-}
-
-
+  
 void PrintClientRecordBalanceLine(clsBankClient Client)
 {
     cout << "| " << left << setw(15) << Client.AccountNumber;
