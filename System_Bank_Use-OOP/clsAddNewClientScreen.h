@@ -47,9 +47,9 @@ public:
 
 	static void ShowAddNewClientScreen()
 	{
-        _DrawScreenHeader("\tAdd New Client Screen");
+        _DrawScreenHeader("\t Add New Client Screen");
 
-        string AccountNumber;
+        string AccountNumber = "";
         cout << "\nPlease Enter Account Number : ";
         AccountNumber = clsInputValidate::ReadString();
 
