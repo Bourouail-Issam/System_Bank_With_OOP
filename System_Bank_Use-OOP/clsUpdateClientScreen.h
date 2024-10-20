@@ -30,7 +30,7 @@ private:
 
     static void _PrintClient(clsBankClient Client)
     {
-        cout << "\Client Card:";
+        cout << "\nClient Card:";
         cout << "\n___________________\n";
         cout << "\nFirstName     : " << Client.FirstName;
         cout << "\nLastName      : " << Client.LastName;

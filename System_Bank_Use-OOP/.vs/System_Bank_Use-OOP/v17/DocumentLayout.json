@@ -7,20 +7,16 @@
       "RelativeMoniker": "D:0:0:{59AAE990-FB24-4A1D-8B8C-F4E940842AA0}|System_Bank_Use-OOP.vcxproj|solutionrelative:clsMainScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59AAE990-FB24-4A1D-8B8C-F4E940842AA0}|System_Bank_Use-OOP.vcxproj|D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\clsUpdateClientScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{59AAE990-FB24-4A1D-8B8C-F4E940842AA0}|System_Bank_Use-OOP.vcxproj|solutionrelative:clsUpdateClientScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{59AAE990-FB24-4A1D-8B8C-F4E940842AA0}|System_Bank_Use-OOP.vcxproj|D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\System_Bank_Use-OOP.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{59AAE990-FB24-4A1D-8B8C-F4E940842AA0}|System_Bank_Use-OOP.vcxproj|solutionrelative:System_Bank_Use-OOP.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{59AAE990-FB24-4A1D-8B8C-F4E940842AA0}|System_Bank_Use-OOP.vcxproj|D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\clsFindClientScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{59AAE990-FB24-4A1D-8B8C-F4E940842AA0}|System_Bank_Use-OOP.vcxproj|solutionrelative:clsFindClientScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{59AAE990-FB24-4A1D-8B8C-F4E940842AA0}|System_Bank_Use-OOP.vcxproj|D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\clsScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{59AAE990-FB24-4A1D-8B8C-F4E940842AA0}|System_Bank_Use-OOP.vcxproj|solutionrelative:clsScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59AAE990-FB24-4A1D-8B8C-F4E940842AA0}|System_Bank_Use-OOP.vcxproj|D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\clsAddNewClientScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{59AAE990-FB24-4A1D-8B8C-F4E940842AA0}|System_Bank_Use-OOP.vcxproj|solutionrelative:clsAddNewClientScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{59AAE990-FB24-4A1D-8B8C-F4E940842AA0}|System_Bank_Use-OOP.vcxproj|D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\System_Bank_Use-OOP.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{59AAE990-FB24-4A1D-8B8C-F4E940842AA0}|System_Bank_Use-OOP.vcxproj|solutionrelative:System_Bank_Use-OOP.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +30,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "System_Bank_Use-OOP.cpp",
               "DocumentMoniker": "D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\System_Bank_Use-OOP.cpp",
               "RelativeDocumentMoniker": "System_Bank_Use-OOP.cpp",
@@ -43,8 +39,7 @@
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAgAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-16T13:03:25.917Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -54,7 +49,7 @@
               "RelativeDocumentMoniker": "clsMainScreen.h",
               "ToolTip": "D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\clsMainScreen.h",
               "RelativeToolTip": "clsMainScreen.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "ViewState": "AQIAACMAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-10-18T17:18:09.283Z",
               "IsPinned": true,
@@ -62,13 +57,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "clsScreen.h",
               "DocumentMoniker": "D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\clsScreen.h",
               "RelativeDocumentMoniker": "clsScreen.h",
               "ToolTip": "D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\clsScreen.h",
               "RelativeToolTip": "clsScreen.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-10-19T03:16:44.297Z",
               "IsPinned": true,
@@ -77,27 +72,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "clsUpdateClientScreen.h",
-              "DocumentMoniker": "D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\clsUpdateClientScreen.h",
-              "RelativeDocumentMoniker": "clsUpdateClientScreen.h",
-              "ToolTip": "D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\clsUpdateClientScreen.h",
-              "RelativeToolTip": "clsUpdateClientScreen.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "clsFindClientScreen.h",
+              "DocumentMoniker": "D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\clsFindClientScreen.h",
+              "RelativeDocumentMoniker": "clsFindClientScreen.h",
+              "ToolTip": "D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\clsFindClientScreen.h",
+              "RelativeToolTip": "clsFindClientScreen.h",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAkwDYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-20T02:18:15.561Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "clsAddNewClientScreen.h",
-              "DocumentMoniker": "D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\clsAddNewClientScreen.h",
-              "RelativeDocumentMoniker": "clsAddNewClientScreen.h",
-              "ToolTip": "D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\clsAddNewClientScreen.h",
-              "RelativeToolTip": "clsAddNewClientScreen.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-20T01:59:10.229Z",
+              "WhenOpened": "2024-10-20T02:39:44.056Z",
               "EditorCaption": ""
             }
           ]
