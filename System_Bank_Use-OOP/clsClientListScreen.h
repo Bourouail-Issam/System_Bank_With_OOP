@@ -7,7 +7,7 @@ class clsClientListScreen :protected clsScreen
 {
 private:
 
-	static void _PrintClientRecordLine(clsBankClient Client)
+	static void _PrintClientRecordBalanceLine(clsBankClient Client)
 	{
 		cout << setw(8) << left << "" << "| " << left << setw(15) 
 			 << Client.AccountNumber;
@@ -53,7 +53,7 @@ public:
 		{
 			for (clsBankClient C : vClients)
 			{
-				_PrintClientRecordLine(C);
+				_PrintClientRecordBalanceLine(C);
 				cout << endl;
 			}
 		}

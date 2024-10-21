@@ -310,19 +310,6 @@ public:
 		return _LoadClientsDataFromFile();
 	}
 
-	static double GetTotalBalances() 
-	{
-		vector <clsBankClient> vClients = _LoadClientsDataFromFile();
-		double TotalBalances = 0;
-
-		for (clsBankClient C : vClients)
-		{
-			TotalBalances += C.AccountBalance;
-		}
-
-		return TotalBalances;
-	}
-
 	void Deposit(double Amount)
 	{
 		AccountBalance += Amount;
@@ -341,6 +328,20 @@ public:
 		{
 			return false;
 		}
+	}
+
+	static double GetTotalBalances()
+	{
+		vector <clsBankClient> vClients = _LoadClientsDataFromFile();
+		
+		double TotaleBalances = 0;
+		
+		for (size_t i = 0; i < vClients.size(); i++)
+		{
+			TotaleBalances += vClients[i].AccountBalance;
+		}
+
+		return TotaleBalances;
 	}
 };
 
