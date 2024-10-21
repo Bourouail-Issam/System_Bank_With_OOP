@@ -54,7 +54,7 @@ public:
 
 		if (Answer == 'y' || Answer == 'Y')
 		{
-			Client.Deposite(Amount);
+			Client.Deposit(Amount);
 			cout << "\nAmount Deposited Successfully\n";
 			cout << "\nNew balance is : " << Client.AccountBalance;
 		}

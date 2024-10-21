@@ -323,7 +323,7 @@ public:
 		return TotalBalances;
 	}
 
-	void Deposite(float Amount)
+	void Deposit(float Amount)
 	{
 		AccountBalance += Amount;
 		Save();
