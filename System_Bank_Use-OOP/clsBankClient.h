@@ -322,5 +322,11 @@ public:
 
 		return TotalBalances;
 	}
+
+	void Deposite(float Amount)
+	{
+		AccountBalance += Amount;
+		Save();
+	}
 };
 

@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{59AAE990-FB24-4A1D-8B8C-F4E940842AA0}|System_Bank_Use-OOP.vcxproj|D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\clsDepositScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{59AAE990-FB24-4A1D-8B8C-F4E940842AA0}|System_Bank_Use-OOP.vcxproj|solutionrelative:clsDepositScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{59AAE990-FB24-4A1D-8B8C-F4E940842AA0}|System_Bank_Use-OOP.vcxproj|D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\clsTransactionsScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{59AAE990-FB24-4A1D-8B8C-F4E940842AA0}|System_Bank_Use-OOP.vcxproj|solutionrelative:clsTransactionsScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{59AAE990-FB24-4A1D-8B8C-F4E940842AA0}|System_Bank_Use-OOP.vcxproj|D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\clsBankClient.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{59AAE990-FB24-4A1D-8B8C-F4E940842AA0}|System_Bank_Use-OOP.vcxproj|solutionrelative:clsBankClient.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{59AAE990-FB24-4A1D-8B8C-F4E940842AA0}|System_Bank_Use-OOP.vcxproj|D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\clsMainScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{59AAE990-FB24-4A1D-8B8C-F4E940842AA0}|System_Bank_Use-OOP.vcxproj|solutionrelative:clsMainScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{59AAE990-FB24-4A1D-8B8C-F4E940842AA0}|System_Bank_Use-OOP.vcxproj|D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\clsScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{59AAE990-FB24-4A1D-8B8C-F4E940842AA0}|System_Bank_Use-OOP.vcxproj|solutionrelative:clsScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{59AAE990-FB24-4A1D-8B8C-F4E940842AA0}|System_Bank_Use-OOP.vcxproj|D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\clsFindClientScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{59AAE990-FB24-4A1D-8B8C-F4E940842AA0}|System_Bank_Use-OOP.vcxproj|solutionrelative:clsFindClientScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{59AAE990-FB24-4A1D-8B8C-F4E940842AA0}|System_Bank_Use-OOP.vcxproj|D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\System_Bank_Use-OOP.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -43,18 +43,17 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAFgAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-16T13:03:25.917Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "clsMainScreen.h",
               "DocumentMoniker": "D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\clsMainScreen.h",
               "RelativeDocumentMoniker": "clsMainScreen.h",
               "ToolTip": "D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\clsMainScreen.h",
               "RelativeToolTip": "clsMainScreen.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAiAAAA",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAFwAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-10-18T17:18:09.283Z",
               "IsPinned": true,
@@ -62,42 +61,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "clsScreen.h",
-              "DocumentMoniker": "D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\clsScreen.h",
-              "RelativeDocumentMoniker": "clsScreen.h",
-              "ToolTip": "D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\clsScreen.h",
-              "RelativeToolTip": "clsScreen.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "clsDepositScreen.h",
+              "DocumentMoniker": "D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\clsDepositScreen.h",
+              "RelativeDocumentMoniker": "clsDepositScreen.h",
+              "ToolTip": "D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\clsDepositScreen.h",
+              "RelativeToolTip": "clsDepositScreen.h",
+              "ViewState": "AQIAABcAAAAAAAAAAAAAwC0AAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-19T03:16:44.297Z",
-              "IsPinned": true,
+              "WhenOpened": "2024-10-21T04:19:54.742Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "clsBankClient.h",
+              "DocumentMoniker": "D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\clsBankClient.h",
+              "RelativeDocumentMoniker": "clsBankClient.h",
+              "ToolTip": "D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\clsBankClient.h",
+              "RelativeToolTip": "clsBankClient.h",
+              "ViewState": "AQIAAP4AAAAAAAAAAAAvwEkBAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-21T04:31:15.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "clsTransactionsScreen.h",
               "DocumentMoniker": "D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\clsTransactionsScreen.h",
               "RelativeDocumentMoniker": "clsTransactionsScreen.h",
               "ToolTip": "D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\clsTransactionsScreen.h",
               "RelativeToolTip": "clsTransactionsScreen.h",
-              "ViewState": "AQIAAEEAAAAAAAAAAADwv2EAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-10-21T03:24:03.469Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "clsFindClientScreen.h",
-              "DocumentMoniker": "D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\clsFindClientScreen.h",
-              "RelativeDocumentMoniker": "clsFindClientScreen.h",
-              "ToolTip": "D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\clsFindClientScreen.h",
-              "RelativeToolTip": "clsFindClientScreen.h",
-              "ViewState": "AQIAABYAAAAAAAAAAADwvzYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-20T02:39:44.056Z",
               "EditorCaption": ""
             }
           ]
