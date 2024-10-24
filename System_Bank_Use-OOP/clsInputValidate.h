@@ -81,6 +81,7 @@ public:
 		return Number;
 	}
 
+
 	static int ReadIntNumberBetween(int From, int To, string ErrorMessage = "Number is not within range, enter again: ")
 	{
 		int number = IsDateBetween();
@@ -126,6 +127,29 @@ public:
 	static float ReadFloatNumberBetween(float From, float To, string ErrorMessage = "Number is not within range, Enter again : ")
 	{
 		float Number = ReadFloatNumber();
+
+		while (!IsNumberBetween(Number, From, To)) {
+			cout << ErrorMessage;
+			Number = ReadFloatNumber();
+		}
+		return Number;
+	}
+
+	static short ReadShortNumber(string ErrorMessage = "Invalid Number, Enter again : ")
+	{
+		short Number;
+		while (!(cin >> Number)) {
+			cin.clear();
+			cin.ignore(numeric_limits<streamsize>::max(), '\n');
+			cout << ErrorMessage;
+		}
+
+		return Number;
+	}
+
+	static short ReadShortNumberBetween(short From, short To, string ErrorMessage = "Number is not within range, Enter again : ")
+	{
+		short Number = ReadShortNumber();
 
 		while (!IsNumberBetween(Number, From, To)) {
 			cout << ErrorMessage;
