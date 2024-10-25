@@ -14,7 +14,7 @@ private:
 	float _AccountBalance;
 	bool _MarkedForDelete = false;
 
-	static clsBankClient _ConvertLineToClientObject(string Line, string Seperator = "#//#") {
+	static clsBankClient _ConvertLineToUserObject(string Line, string Seperator = "#//#") {
 
 		vector<string> vClientData;
 
@@ -40,7 +40,7 @@ private:
 		return clsBankClient(enMode::EmptyMode, "", "", "", "", "", "", 0);
 	}
 
-	static vector <clsBankClient> _LoadClientsDataFromFile()
+	static vector <clsBankClient> _LoadUsersDataFromFile()
 	{
 		vector <clsBankClient> vClients;
 
@@ -52,7 +52,7 @@ private:
 			string Line;
 			while (getline(MyFile, Line))
 			{
-				clsBankClient client = _ConvertLineToClientObject(Line);
+				clsBankClient client = _ConvertLineToUserObject(Line);
 				vClients.push_back(client);
 			}
 
@@ -86,7 +86,7 @@ private:
 	void _Update()
 	{
 		vector <clsBankClient> _vClients;
-		_vClients = _LoadClientsDataFromFile();
+		_vClients = _LoadUsersDataFromFile();
 
 		for (clsBankClient& C : _vClients)
 		{
@@ -194,13 +194,12 @@ public:
 			while (getline(MyFile, Line))
 			{
 
-				clsBankClient Client = _ConvertLineToClientObject(Line);
+				clsBankClient Client = _ConvertLineToUserObject(Line);
 				if (Client.AccountNumber == AccountNumber)
 				{
 					MyFile.close();
 					return Client;
 				}
-				vClients.push_back(Client);
 			}
 
 			MyFile.close();
@@ -222,7 +221,7 @@ public:
 			while (getline(MyFile, Line))
 			{
 
-				clsBankClient Client = _ConvertLineToClientObject(Line);
+				clsBankClient Client = _ConvertLineToUserObject(Line);
 				if (Client.AccountNumber == AccountNumber && Client.PinCode == PinCode)
 				{
 					MyFile.close();
@@ -288,7 +287,7 @@ public:
 	bool Delete()
 	{
 		vector <clsBankClient> vClients;
-		vClients = _LoadClientsDataFromFile();
+		vClients = _LoadUsersDataFromFile();
 
 		for (clsBankClient& C : vClients) 
 		{
@@ -307,7 +306,7 @@ public:
 
 	static vector <clsBankClient> GetClientsList()
 	{
-		return _LoadClientsDataFromFile();
+		return _LoadUsersDataFromFile();
 	}
 
 	void Deposit(double Amount)
@@ -332,7 +331,7 @@ public:
 
 	static double GetTotalBalances()
 	{
-		vector <clsBankClient> vClients = _LoadClientsDataFromFile();
+		vector <clsBankClient> vClients = _LoadUsersDataFromFile();
 		
 		double TotaleBalances = 0;
 		
