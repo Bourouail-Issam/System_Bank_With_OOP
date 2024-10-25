@@ -4,13 +4,13 @@
 #include <fstream>
 #include "clsString.h"
 
-class clsUser : protected clsPerson
+class clsUser : public clsPerson
 {
 private:
 
 	enum enMode { EmptyMode = 0, UpdateMode = 1, AddNewMode = 2 };
 	enMode _Mode;
-	string _Username;
+	string _UserName;
 	string _Password;
 	int _Permissions;
 	bool _MarkedForDelete = false;
@@ -31,7 +31,7 @@ private:
 		vector <clsUser> vUsers;
 
 		fstream MyFile;
-		MyFile.open("Clients.txt", ios::in);//read Mode
+		MyFile.open("Users.txt", ios::in);//read Mode
 
 		if (MyFile.is_open())
 		{
@@ -55,7 +55,7 @@ private:
 		UserRecord += User.LastName + Seperator;
 		UserRecord += User.Email + Seperator;
 		UserRecord += User.Phone + Seperator;
-		UserRecord += User.Username + Seperator;
+		UserRecord += User.UserName + Seperator;
 		UserRecord += User.Password + Seperator;
 		UserRecord += to_string(User.Permissions);
 
@@ -84,7 +84,7 @@ private:
 
 		for (clsUser& U : vUsers )
 		{
-			if (U.Username == Username) {
+			if (U.UserName == UserName) {
 				U = *this;
 				break;
 			}
@@ -113,23 +113,26 @@ private:
 public:
 
 	// constractor to dont create empty object
-	clsUser(enMode Mode, string FirstName, string LastName, string Email, string Phone, string Username, string Password, int Permission)
-		:clsPerson(FirstName, LastName, Email, Phone)
+	clsUser(enMode Mode, string FirstName, string LastName,
+		string Email, string Phone, string UserName, string Password,
+		int Permissions) :
+		clsPerson(FirstName, LastName, Email, Phone)
+
 	{
 		_Mode = Mode;
-		_Username = Username;
+		_UserName = UserName;
 		_Password = Password;
-		_Permissions = Permission;
+		_Permissions = Permissions;
 	}
 
 	// property Get/Set for _Username
 	void SetUsername(string Username) {
-		_Username = Username;
+		_UserName = Username;
 	}
 	string GetUsername() {
-		return _Username;
+		return _UserName;
 	}
-	__declspec(property(get = GetUsername, put = SetUsername)) string Username;
+	__declspec(property(get = GetUsername, put = SetUsername)) string UserName;
 
 	// property Get/Set for _Password
 	void SetPassword(string Password) {
@@ -147,14 +150,14 @@ public:
 	int GetPermissions() {
 		return _Permissions;
 	}
-	__declspec(property(get = GetPermissions, put = SetPermissions)) string Permissions;
+	__declspec(property(get = GetPermissions, put = SetPermissions)) int Permissions;
 
 	bool MarkedForDelete()
 	{
 		return _MarkedForDelete;
 	}
 
-	static clsUser Find(string Username)
+	static clsUser Find(string UserName)
 	{
 		vector <clsUser> vClients;
 
@@ -168,7 +171,7 @@ public:
 			{
 
 				clsUser User = _ConvertLineToUserObject(Line);
-				if (User.Username == Username)
+				if (User.UserName == UserName)
 				{
 					MyFile.close();
 					return User;
@@ -181,7 +184,7 @@ public:
 		return _GetEmptyClientObject();
 	}
 
-	static clsUser Find(string Username, string Password)
+	static clsUser Find(string UserName, string Password)
 	{
 		vector <clsUser> vClients;
 
@@ -195,7 +198,7 @@ public:
 			{
 
 				clsUser User = _ConvertLineToUserObject(Line);
-				if (Username == User.Username && Password == User.Password)
+				if (UserName == User.UserName && Password == User.Password)
 				{
 					MyFile.close();
 					return User;
@@ -214,9 +217,9 @@ public:
 	
 	enum enSaveResults { svFaildEmptyObject = 0, svSucceeded = 1, svFaildUserExists = 2 };
 
-	static bool IsUserExist(string Username)
+	static bool IsUserExist(string UserName)
 	{
-		clsUser User = Find(Username);
+		clsUser User = Find(UserName);
 		return (!User.IsEmpty());
 	}
 
@@ -235,7 +238,7 @@ public:
 		}
 		case clsUser::AddNewMode:
 		{
-			if (clsUser::IsUserExist(_Username))
+			if (clsUser::IsUserExist(_UserName))
 			{
 				return enSaveResults::svFaildUserExists;
 			}
@@ -255,7 +258,7 @@ public:
 		vector <clsUser> vUsers = _LoadUsersDataFromFile();
 		for (clsUser& U : vUsers)
 		{
-			if (U.Username == _Username)
+			if (U.UserName == _UserName)
 			{
 				U._MarkedForDelete = true;
 				break;
