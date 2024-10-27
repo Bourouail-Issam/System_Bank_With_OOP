@@ -9,7 +9,8 @@
 #include "clsFindClientScreen.h"
 #include "clsTransactionsScreen.h"
 #include "clsManagerUsersScreen.h"
-
+#include "Global.h"
+#include "clsUser.h"
 class clsMainScreen :protected clsScreen
 {
 private:
@@ -75,9 +76,9 @@ private:
 		clsManageUsersScreen::ShowManagerUsers();
 	}
 
-	static void _ShowEndScreen()
+	static void _Logout()
 	{
-		cout << "\nEnd Screen Will be here...\n";
+		CurrentUser = clsUser::Find("", "");
 	}
 
 	
@@ -122,8 +123,7 @@ private:
 				break;
 		    case clsMainScreen::eExit:
 				system("cls"); 
-				_ShowEndScreen();
-				// Login();
+				_Logout();
 				break;
 		}
 	}
