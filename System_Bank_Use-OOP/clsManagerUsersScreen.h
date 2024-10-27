@@ -4,6 +4,7 @@
 #include "clsListUsersScreen.h"
 #include "clsAddNewUserScreen.h"
 #include "clsDeleteUserScreen.h"
+#include "clsUpdateUsersScreen.h"
 #include <iomanip>
 
 
@@ -53,7 +54,8 @@ private:
 
     static void _ShowUpdateUserScreen()
     {
-        cout << "\nUpdate User Screen Will Be Here.\n";
+        //cout << "\nUpdate User Screen Will Be Here.\n";
+        clsUpdateUsersScreen::ShowUpadteUsersScreen();
     }
 
     static void _ShowFindUserScreen()

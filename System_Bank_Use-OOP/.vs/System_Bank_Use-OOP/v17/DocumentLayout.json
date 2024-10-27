@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{59AAE990-FB24-4A1D-8B8C-F4E940842AA0}|System_Bank_Use-OOP.vcxproj|D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\clsDeleteUserScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{59AAE990-FB24-4A1D-8B8C-F4E940842AA0}|System_Bank_Use-OOP.vcxproj|solutionrelative:clsDeleteUserScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{59AAE990-FB24-4A1D-8B8C-F4E940842AA0}|System_Bank_Use-OOP.vcxproj|D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\clsUpdateUsersScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{59AAE990-FB24-4A1D-8B8C-F4E940842AA0}|System_Bank_Use-OOP.vcxproj|solutionrelative:clsUpdateUsersScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{59AAE990-FB24-4A1D-8B8C-F4E940842AA0}|System_Bank_Use-OOP.vcxproj|D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\clsManagerUsersScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -15,15 +15,15 @@
       "RelativeMoniker": "D:0:0:{59AAE990-FB24-4A1D-8B8C-F4E940842AA0}|System_Bank_Use-OOP.vcxproj|solutionrelative:clsUser.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59AAE990-FB24-4A1D-8B8C-F4E940842AA0}|System_Bank_Use-OOP.vcxproj|C:\\PROGRAM FILES\\MICROSOFT VISUAL STUDIO\\2022\\COMMUNITY\\VC\\TOOLS\\MSVC\\14.40.33807\\INCLUDE\\STRING||{3B902123-F8A7-4915-9F01-361F908088D0}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{59AAE990-FB24-4A1D-8B8C-F4E940842AA0}|System_Bank_Use-OOP.vcxproj|D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\clsDeleteClientScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{59AAE990-FB24-4A1D-8B8C-F4E940842AA0}|System_Bank_Use-OOP.vcxproj|solutionrelative:clsDeleteClientScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{59AAE990-FB24-4A1D-8B8C-F4E940842AA0}|System_Bank_Use-OOP.vcxproj|D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\clsDeleteUserScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{59AAE990-FB24-4A1D-8B8C-F4E940842AA0}|System_Bank_Use-OOP.vcxproj|solutionrelative:clsDeleteUserScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{59AAE990-FB24-4A1D-8B8C-F4E940842AA0}|System_Bank_Use-OOP.vcxproj|D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\clsMainScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{59AAE990-FB24-4A1D-8B8C-F4E940842AA0}|System_Bank_Use-OOP.vcxproj|solutionrelative:clsMainScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\include\\string||{3B902123-F8A7-4915-9F01-361F908088D0}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -33,30 +33,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "string",
-              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\include\\string",
-              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\include\\string",
-              "ViewState": "AQIAAEwAAAAAAAAAAAAgwF8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-10-26T03:51:36.562Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "clsUser.h",
-              "DocumentMoniker": "D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\clsUser.h",
-              "RelativeDocumentMoniker": "clsUser.h",
-              "ToolTip": "D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\clsUser.h",
-              "RelativeToolTip": "clsUser.h",
-              "ViewState": "AQIAAJYAAAAAAAAAAAAgwAQBAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "clsUpdateUsersScreen.h",
+              "DocumentMoniker": "D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\clsUpdateUsersScreen.h",
+              "RelativeDocumentMoniker": "clsUpdateUsersScreen.h",
+              "ToolTip": "D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\clsUpdateUsersScreen.h",
+              "RelativeToolTip": "clsUpdateUsersScreen.h",
+              "ViewState": "AQIAAHEAAAAAAAAAAAAgwKQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-26T03:36:48.709Z",
+              "WhenOpened": "2024-10-27T00:50:48.645Z",
               "EditorCaption": ""
             },
             {
@@ -67,14 +56,27 @@
               "RelativeDocumentMoniker": "clsManagerUsersScreen.h",
               "ToolTip": "D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\clsManagerUsersScreen.h",
               "RelativeToolTip": "clsManagerUsersScreen.h",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAkwCYAAAALAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAADYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-10-26T03:30:50.559Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "clsUser.h",
+              "DocumentMoniker": "D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\clsUser.h",
+              "RelativeDocumentMoniker": "clsUser.h",
+              "ToolTip": "D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\clsUser.h",
+              "RelativeToolTip": "clsUser.h",
+              "ViewState": "AQIAAIAAAAAAAAAAAAAAAJMAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-26T03:36:48.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "clsDeleteUserScreen.h",
               "DocumentMoniker": "D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\clsDeleteUserScreen.h",
               "RelativeDocumentMoniker": "clsDeleteUserScreen.h",
@@ -87,20 +89,17 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "clsDeleteClientScreen.h",
-              "DocumentMoniker": "D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\clsDeleteClientScreen.h",
-              "RelativeDocumentMoniker": "clsDeleteClientScreen.h",
-              "ToolTip": "D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\clsDeleteClientScreen.h",
-              "RelativeToolTip": "clsDeleteClientScreen.h",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAADgAAAA7AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-26T03:17:42.738Z",
-              "EditorCaption": ""
+              "DocumentIndex": 5,
+              "Title": "string",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\include\\string",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\include\\string",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAgwF8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-10-26T03:51:36.562Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "clsMainScreen.h",
               "DocumentMoniker": "D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\clsMainScreen.h",
               "RelativeDocumentMoniker": "clsMainScreen.h",
