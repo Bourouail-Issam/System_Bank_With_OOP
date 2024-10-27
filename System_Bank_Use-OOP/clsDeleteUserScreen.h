@@ -7,9 +7,9 @@
 class clsDeleteUserScreen :protected clsScreen
 {
 private:
-    static void _PrintClient(clsUser User)
+    static void _PrintUser(clsUser User)
     {
-        cout << "\nClient Card:";
+        cout << "\nUser Card:";
         cout << "\n___________________\n";
         cout << "\nFirstName     : " << User.FirstName;
         cout << "\nLastName      : " << User.LastName;
@@ -37,7 +37,7 @@ public:
             UserName = clsInputValidate::ReadString();
         }
         clsUser DeleteUser = clsUser::Find(UserName);
-        _PrintClient(DeleteUser);
+        _PrintUser(DeleteUser);
 
         char Answer = 'n';
         cout << "\nAre you sure you want to delete this User n/y? : ";
@@ -48,7 +48,7 @@ public:
             if (DeleteUser.Delete())
             {
                 cout << "\nClient Deleted Successfully :)\n";
-                _PrintClient(DeleteUser);
+                _PrintUser(DeleteUser);
             }
             else
             {
