@@ -115,6 +115,11 @@ private:
 public:
 	static void ShowManagerUsers() 
 	{
+        if (!CheckAccessRights(clsUser::enPermissions::pManageUsers))
+        {
+            return;// this will exit the function and it will not continue
+        }
+
         system("cls");
 		_DrawScreenHeader("\t Manager Users Screen");
 
