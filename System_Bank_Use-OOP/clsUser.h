@@ -61,7 +61,15 @@ private:
 
 		return UserRecord;
 	}
-
+	string _PrepareLoginRecoed(string Seperator = "#//#")
+	{
+		string LoginRecord = "";
+		LoginRecord += clsDate::GetSystemDateTimeString() + Seperator;
+		LoginRecord += UserName + Seperator;
+		LoginRecord += Password + Seperator;
+		LoginRecord += to_string(Permissions);
+		return LoginRecord;
+	}
 	static void _SaveUsersDataToFile(vector <clsUser> vUsers)
 	{
 		fstream MyFill;
@@ -294,5 +302,19 @@ public:
 
 	}
 
+	void RegisterLogin()
+	{
+		string stDataLine = _PrepareLoginRecoed();
+
+		fstream MyFile;
+		MyFile.open("LoginRegister.txt", ios::out | ios::app);
+
+		if (MyFile.is_open())
+		{
+			MyFile << stDataLine << endl;
+
+			MyFile.close();
+		}
+	}
 };
 

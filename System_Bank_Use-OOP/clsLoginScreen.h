@@ -40,8 +40,9 @@ private:
 			
 		} while (LoginFaild && NumberOfAttempts);
 
-			clsMainScreen::ShowMainMenue();
-			return true;
+		CurrentUser.RegisterLogin();
+		clsMainScreen::ShowMainMenue();
+		return true;
 	}
 public:
 

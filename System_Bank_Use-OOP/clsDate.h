@@ -105,6 +105,24 @@ public:
 		return clsDate(Day, Month, Year);
 	}
 
+	static string GetSystemDateTimeString()
+	{
+		//system date and time
+		time_t t = time(0);
+		tm* now = localtime(&t);
+
+		short Day, Month, Year,Hours, Minutes, Seconds;
+
+		Year = now->tm_year + 1900;
+		Month = now->tm_mon + 1;
+		Day = now->tm_mday;
+		Hours = now->tm_hour;
+		Minutes = now->tm_min;
+		Seconds = now->tm_sec;
+
+		return (DateToString(clsDate(Day,Month,Year)) + "  -  " +
+			to_string(Hours) + ":" + to_string(Minutes) + ":" + to_string(Seconds));
+	}
 	static	bool IsValidDate(clsDate Date)
 	{
 
