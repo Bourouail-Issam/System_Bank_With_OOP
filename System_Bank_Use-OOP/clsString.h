@@ -274,7 +274,6 @@ public:
 	vector <string> Split(string Delim) {
 		return (Split(_Value, Delim));
 	}
-
 	// Trim left 
 	static string TrimLeft(string S1)
 	{

@@ -123,6 +123,7 @@ public:
 		return (DateToString(clsDate(Day,Month,Year)) + "  -  " +
 			to_string(Hours) + ":" + to_string(Minutes) + ":" + to_string(Seconds));
 	}
+
 	static	bool IsValidDate(clsDate Date)
 	{
 

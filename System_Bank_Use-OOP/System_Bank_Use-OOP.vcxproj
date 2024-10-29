@@ -154,6 +154,7 @@
     <ClInclude Include="clsUpdateClientScreen.h" />
     <ClInclude Include="clsUpdateUsersScreen.h" />
     <ClInclude Include="clsUser.h" />
+    <ClInclude Include="clsLoginRegisterScreen.h" />
     <ClInclude Include="clsUtil.h" />
     <ClInclude Include="clsWithdrawScreen.h" />
     <ClInclude Include="Global.h" />
