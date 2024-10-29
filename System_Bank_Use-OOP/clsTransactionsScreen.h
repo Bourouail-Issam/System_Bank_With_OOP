@@ -5,6 +5,7 @@
 #include "clsDepositScreen.h"
 #include "clsWithdrawScreen.h"
 #include "clsTotalBalancesScreen.h"
+#include "clsTransferScreen.h"
 
 
 class clsTransactionsScreen : protected clsScreen
@@ -13,14 +14,14 @@ private:
 
 	static enum _enTransactionsMenueOptions {
 		eDeposit = 1, eWithdraw = 2, eShowTotalBalance = 3,
-		eShowMainMenue = 4
+		eTransfer = 4,eShowMainMenue = 5
 	};
 
 	static short _ReadTransactionsMenueOption()
 	{
-		cout << setw(37) << left << "" << "Choose what do you want to do? [1 to 4]? ";
+		cout << setw(37) << left << "" << "Choose what do you want to do? [1 to 5]? ";
 		short Choice = 0;
-		Choice = clsInputValidate::ReadIntNumberBetween(1, 4, "Enter Number between 1 to 4? ");
+		Choice = clsInputValidate::ReadIntNumberBetween(1, 5, "Enter Number between 1 to 5? ");
 		return Choice;
 	};
 
@@ -50,6 +51,11 @@ private:
 		clsTotalBalancesScreen::ShowTotalBalances();
 	};
 
+	static void _ShowTransferScreen() 
+	{
+		clsTransferScreen::ShowTransferScreen();
+	}
+
 	static void _PerfromTranactionsMenueOption(_enTransactionsMenueOptions TransactionMenueOption)
 	{
 		switch (TransactionMenueOption)
@@ -75,6 +81,13 @@ private:
 		    	_GoBackToTransactionsMenue();
 		    	break;
 		    }
+			case clsTransactionsScreen::eTransfer:
+			{
+				system("cls");
+				_ShowTransferScreen();
+				_GoBackToTransactionsMenue();
+				break;
+			}
 		    case clsTransactionsScreen::eShowMainMenue:
 		    {
 				//do nothing here the main screen will handle it :-) ;
@@ -99,7 +112,8 @@ public:
 		cout << setw(37) << left << "" << "\t[1] Deposit.\n";
 		cout << setw(37) << left << "" << "\t[2] Withdraw.\n";
 		cout << setw(37) << left << "" << "\t[3] Total Balances.\n";
-		cout << setw(37) << left << "" << "\t[4] Main Menue.\n";
+		cout << setw(37) << left << "" << "\t[4] Transfer.\n";
+		cout << setw(37) << left << "" << "\t[5] Main Menue.\n";
 		cout << setw(37) << left << "" << "===========================================\n";
 		_PerfromTranactionsMenueOption((_enTransactionsMenueOptions)_ReadTransactionsMenueOption());
 	}

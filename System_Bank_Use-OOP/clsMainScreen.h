@@ -71,7 +71,6 @@ private:
 		clsTransactionsScreen::ShowTransactionsMenue();
 	}
 
-
 	static void _ShowManageUsersMenue()
 	{
 		//cout << "\nUsers Menue Will be here...\n";

@@ -342,5 +342,16 @@ public:
 
 		return TotaleBalances;
 	}
+
+	bool Transfer(double Amount, clsBankClient& DestinationClient)
+	{
+		if (Amount > AccountBalance)
+		{
+			return false;
+		}
+		Withdraw(Amount);
+		DestinationClient.Deposit(Amount);
+		return true;
+	}
 };
 
