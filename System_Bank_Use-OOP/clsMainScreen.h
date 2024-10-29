@@ -71,10 +71,6 @@ private:
 		clsTransactionsScreen::ShowTransactionsMenue();
 	}
 
-	static void _ShowLoginRegisterScreen()
-	{
-		clsLoginRegisterScreen::ShowListUserLoginRegister();
-	}
 
 	static void _ShowManageUsersMenue()
 	{
@@ -82,6 +78,10 @@ private:
 		clsManageUsersScreen::ShowManagerUsers();
 	}
 
+	static void _ShowLoginRegisterScreen()
+	{
+		clsLoginRegisterScreen::ShowListUserLoginRegister();
+	}
 
 	static void _Logout()
 	{
