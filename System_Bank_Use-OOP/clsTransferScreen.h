@@ -57,8 +57,13 @@ public:
 		_PrintClient(SourceClient);
 
 		clsBankClient DestinationClient = clsBankClient::Find(_ReadAccountNumber("To"));
+		while (SourceClient.AccountNumber == DestinationClient.AccountNumber)
+		{
+			cout << "\nYou Cant Tansfer Money To Yourself.\n";
+			DestinationClient = clsBankClient::Find(_ReadAccountNumber("To"));
+		}
 		_PrintClient(DestinationClient);
-	
+
 		double Amount = _ReadAmount(SourceClient);
 
 		cout << "\nAre you sure you want to perform this operation? y/n? ";
