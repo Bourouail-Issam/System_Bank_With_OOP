@@ -3,6 +3,8 @@
 #include "clsString.h"
 #include <vector>
 #include <fstream>
+#include "clsDate.h"
+#include "Global.h"
 
 class clsBankClient : public clsPerson
 {
@@ -116,6 +118,32 @@ private:
 		_AddDataLineToFile(_ConvertClientObjectToLine(*this));
 	}
 
+	void _RegisterTransferLog(double Amount, clsBankClient DestinationClient)
+	{
+		string stDataLine = _PrepareTransferForLogRecord(Amount, DestinationClient);
+
+		fstream MyFill;
+		MyFill.open("TransferLog.txt", ios::out | ios::app);
+
+		if (MyFill.is_open())
+		{
+			MyFill << stDataLine << endl;
+			MyFill.close();
+		}
+	}
+
+	string _PrepareTransferForLogRecord(double Amount, clsBankClient DestinationClient,string Seperator = "#//#")
+	{
+		string TransferLogLine;
+		TransferLogLine = clsDate::GetSystemDateTimeString() + Seperator;
+		TransferLogLine += AccountNumber + Seperator;
+		TransferLogLine += DestinationClient.AccountNumber + Seperator;
+		TransferLogLine += to_string(Amount) + Seperator;
+		TransferLogLine += to_string(AccountBalance) + Seperator;
+		TransferLogLine += to_string(DestinationClient.AccountBalance) + Seperator;
+		TransferLogLine += CurrentUser.UserName;
+		return TransferLogLine;
+	}
 public:
 	// constractor
 	clsBankClient(enMode Mode, string FirstName, string LastName, string Email, string Phone, string AcountNumber, string PinCode, float AccountBalance)
@@ -351,7 +379,10 @@ public:
 		}
 		Withdraw(Amount);
 		DestinationClient.Deposit(Amount);
+		_RegisterTransferLog(Amount, DestinationClient);
 		return true;
 	}
+
+
 };
 
