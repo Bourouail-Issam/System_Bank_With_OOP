@@ -25,7 +25,7 @@ private:
 
 		LoginRegisterRecord.DateTime = LoginRegisterDataLine [0];
 		LoginRegisterRecord.UserName = LoginRegisterDataLine [1];
-		LoginRegisterRecord.Password = LoginRegisterDataLine [2];
+		LoginRegisterRecord.Password = clsUtil::Decryption(LoginRegisterDataLine[2],32);
 		LoginRegisterRecord.Permissions = stoi(LoginRegisterDataLine[3]);
 		return LoginRegisterRecord;
 	}
@@ -38,7 +38,7 @@ private:
 	{
 		vector <string> vUser;
 		vUser = clsString::Split(Line, Seperator);
-		return clsUser(enMode::UpdateMode, vUser[0], vUser[1], vUser[2], vUser[3], vUser[4], vUser[5], stoi(vUser[6]));
+		return clsUser(enMode::UpdateMode, vUser[0], vUser[1], vUser[2], vUser[3], vUser[4], clsUtil::Decryption(vUser[5],32), stoi(vUser[6]));
 	}
 
 	static vector <clsUser> _LoadUsersDataFromFile()
@@ -71,7 +71,7 @@ private:
 		UserRecord += User.Email + Seperator;
 		UserRecord += User.Phone + Seperator;
 		UserRecord += User.UserName + Seperator;
-		UserRecord += User.Password + Seperator;
+		UserRecord += clsUtil::Encryption(User.Password , 32) + Seperator;
 		UserRecord += to_string(User.Permissions);
 
 		return UserRecord;
@@ -125,12 +125,12 @@ private:
 		_AddDataLineToFile(_ConvertUserObjectToLine(*this));
 	}
 
-	string _PrepareLoginRecoed(string Seperator = "#//#")
+	string _PrepareLoginRecord(string Seperator = "#//#")
 	{
 		string LoginRecord = "";
 		LoginRecord += clsDate::GetSystemDateTimeString() + Seperator;
 		LoginRecord += UserName + Seperator;
-		LoginRecord += Password + Seperator;
+		LoginRecord += clsUtil::Encryption(Password,32) + Seperator;
 		LoginRecord += to_string(Permissions);
 		return LoginRecord;
 	}
@@ -333,7 +333,7 @@ public:
 
 	void RegisterLogin()
 	{
-		string stDataLine = _PrepareLoginRecoed();
+		string stDataLine = _PrepareLoginRecord();
 
 		fstream MyFile;
 		MyFile.open("LoginRegister.txt", ios::out | ios::app);
@@ -345,7 +345,6 @@ public:
 			MyFile.close();
 		}
 	}
-
 
 	static vector <stLoginRegisterRecord> GetLoginRegisterList()
 	{
