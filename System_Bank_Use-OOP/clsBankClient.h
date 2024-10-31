@@ -72,8 +72,7 @@ private:
 			string Line;
 			while (getline(MyFile, Line))
 			{
-				clsBankClient client = _ConvertLineToUserObject(Line);
-				vClients.push_back(client);
+				vClients.push_back(_ConvertLineToUserObject(Line));
 			}
 
 			MyFile.close();

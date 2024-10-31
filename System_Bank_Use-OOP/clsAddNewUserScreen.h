@@ -143,7 +143,7 @@ public:
 
 		switch (SaveResult)
 		{
-		case clsUser::svFaildEmptyObject:
+		case clsUser ::svFaildEmptyObject:
 		{
 			cout << "\nError User was not saved because it's Empty";
 			break;
