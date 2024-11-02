@@ -12,7 +12,7 @@
 #include "Global.h"
 #include "clsUser.h"
 #include "clsLoginRegisterScreen.h"
-#include "clsCurrencyExchangeScreen.h"
+#include "clsCurrencyExchangeMenueScreen.h"
 
 
 class clsMainScreen :protected clsScreen
@@ -87,7 +87,7 @@ private:
 
 	static void _ShowCurrencyExchangeMainMenue()
 	{
-		clsCurrencyExchangeScreen::ShowCurrenciesMenue();
+		clsCurrencyExchangeMenueScreen::ShowCurrenciesMenue();
 	}
 
 	static void _Logout()

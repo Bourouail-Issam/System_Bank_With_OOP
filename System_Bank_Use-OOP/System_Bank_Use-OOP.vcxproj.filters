@@ -113,7 +113,10 @@
     <ClInclude Include="clsCurrency.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="clsCurrencyExchangeScreen.h">
+    <ClInclude Include="clsCurrencyExchangeMenueScreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clsCurrenciesListScreen.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
