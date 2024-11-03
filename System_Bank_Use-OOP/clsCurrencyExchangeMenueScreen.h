@@ -4,6 +4,7 @@
 #include<iomanip>
 #include "clsCurrenciesListScreen.h"
 #include "clsFindCurrencyScreen.h"
+#include "clsUpdateCurrencyRateScreen.h"
 
 using namespace std;
 
@@ -26,7 +27,7 @@ private:
 
 	static void _GoBackToCurrenciesMenue()
 	{
-		cout << "Press any key to go back to Main Menue...\n";
+		cout << "\nPress any key to go back to Main Menue...\n";
 		system("pause>0");
 		ShowCurrenciesMenue();
 	}
@@ -45,7 +46,8 @@ private:
 
 	static void _ShowUpdateCurrencyRateScreen()
 	{
-	     cout << "\nUpdate Currency Rate Screen Will be here...\n";
+	     //cout << "\nUpdate Currency Rate Screen Will be here...\n";
+		clsUpdateCurrencyRateScreen::ShowUpdateCurrencyRateScreen();
 	}
 
 	static void _ShowCurrencyCalculatorScreen()

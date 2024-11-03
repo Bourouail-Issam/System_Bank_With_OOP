@@ -78,7 +78,7 @@ private:
 
 		for (clsCurrency& C : vCurrencies)
 		{
-			if (C.CurrencyName() == _CurrencyCode)
+			if (C.CurrencyCode() == _CurrencyCode)
 			{
 				C = *this; 
 				break;
