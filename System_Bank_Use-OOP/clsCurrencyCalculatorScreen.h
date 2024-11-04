@@ -70,7 +70,7 @@ public:
 		char KeepConvert = 'n';
 		do
 		{
-			_DrawScreenHeader("\t Calculate Currency Screen");
+			_DrawScreenHeader("\tCalculate Currency Screen");
 
 			clsCurrency CurrencyFrom = _GetCurrency("\nPlease Enter Currency 1 Code : ");
 			clsCurrency CurrencyTo = _GetCurrency("\nPlease Enter Currency 2 Code : ");

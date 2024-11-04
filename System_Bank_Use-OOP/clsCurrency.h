@@ -92,6 +92,7 @@ private:
 		return clsCurrency(enMode::enEmpty, "", "", "", 0);
 	}
 
+	
 
 public:
 

@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{59AAE990-FB24-4A1D-8B8C-F4E940842AA0}|System_Bank_Use-OOP.vcxproj|D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\clsCurrencyCalculatorScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{59AAE990-FB24-4A1D-8B8C-F4E940842AA0}|System_Bank_Use-OOP.vcxproj|solutionrelative:clsCurrencyCalculatorScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{59AAE990-FB24-4A1D-8B8C-F4E940842AA0}|System_Bank_Use-OOP.vcxproj|D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\clsTransferLogScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{59AAE990-FB24-4A1D-8B8C-F4E940842AA0}|System_Bank_Use-OOP.vcxproj|solutionrelative:clsTransferLogScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59AAE990-FB24-4A1D-8B8C-F4E940842AA0}|System_Bank_Use-OOP.vcxproj|D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\clsCurrency.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{59AAE990-FB24-4A1D-8B8C-F4E940842AA0}|System_Bank_Use-OOP.vcxproj|solutionrelative:clsCurrency.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{59AAE990-FB24-4A1D-8B8C-F4E940842AA0}|System_Bank_Use-OOP.vcxproj|D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\clsTransactionsScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{59AAE990-FB24-4A1D-8B8C-F4E940842AA0}|System_Bank_Use-OOP.vcxproj|solutionrelative:clsTransactionsScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59AAE990-FB24-4A1D-8B8C-F4E940842AA0}|System_Bank_Use-OOP.vcxproj|D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\clsCurrencyExchangeMenueScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{59AAE990-FB24-4A1D-8B8C-F4E940842AA0}|System_Bank_Use-OOP.vcxproj|solutionrelative:clsCurrencyExchangeMenueScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{59AAE990-FB24-4A1D-8B8C-F4E940842AA0}|System_Bank_Use-OOP.vcxproj|D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\clsTotalBalancesScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{59AAE990-FB24-4A1D-8B8C-F4E940842AA0}|System_Bank_Use-OOP.vcxproj|solutionrelative:clsTotalBalancesScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59AAE990-FB24-4A1D-8B8C-F4E940842AA0}|System_Bank_Use-OOP.vcxproj|D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\clsMainScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{59AAE990-FB24-4A1D-8B8C-F4E940842AA0}|System_Bank_Use-OOP.vcxproj|solutionrelative:clsMainScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{59AAE990-FB24-4A1D-8B8C-F4E940842AA0}|System_Bank_Use-OOP.vcxproj|D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\clsDepositScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{59AAE990-FB24-4A1D-8B8C-F4E940842AA0}|System_Bank_Use-OOP.vcxproj|solutionrelative:clsDepositScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59AAE990-FB24-4A1D-8B8C-F4E940842AA0}|System_Bank_Use-OOP.vcxproj|D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\clsWithdrawScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{59AAE990-FB24-4A1D-8B8C-F4E940842AA0}|System_Bank_Use-OOP.vcxproj|solutionrelative:clsWithdrawScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "clsCurrencyCalculatorScreen.h",
-              "DocumentMoniker": "D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\clsCurrencyCalculatorScreen.h",
-              "RelativeDocumentMoniker": "clsCurrencyCalculatorScreen.h",
-              "ToolTip": "D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\clsCurrencyCalculatorScreen.h",
-              "RelativeToolTip": "clsCurrencyCalculatorScreen.h",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAuwFkAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "clsTransactionsScreen.h",
+              "DocumentMoniker": "D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\clsTransactionsScreen.h",
+              "RelativeDocumentMoniker": "clsTransactionsScreen.h",
+              "ToolTip": "D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\clsTransactionsScreen.h",
+              "RelativeToolTip": "clsTransactionsScreen.h",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-03T03:16:22.601Z",
+              "WhenOpened": "2024-11-04T03:25:28.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "clsTransferLogScreen.h",
+              "DocumentMoniker": "D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\clsTransferLogScreen.h",
+              "RelativeDocumentMoniker": "clsTransferLogScreen.h",
+              "ToolTip": "D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\clsTransferLogScreen.h",
+              "RelativeToolTip": "clsTransferLogScreen.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-04T03:25:54.027Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "clsCurrencyExchangeMenueScreen.h",
-              "DocumentMoniker": "D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\clsCurrencyExchangeMenueScreen.h",
-              "RelativeDocumentMoniker": "clsCurrencyExchangeMenueScreen.h",
-              "ToolTip": "D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\clsCurrencyExchangeMenueScreen.h",
-              "RelativeToolTip": "clsCurrencyExchangeMenueScreen.h",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAYAAAAoAAAA",
+              "Title": "clsTotalBalancesScreen.h",
+              "DocumentMoniker": "D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\clsTotalBalancesScreen.h",
+              "RelativeDocumentMoniker": "clsTotalBalancesScreen.h",
+              "ToolTip": "D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\clsTotalBalancesScreen.h",
+              "RelativeToolTip": "clsTotalBalancesScreen.h",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-01T07:05:05.225Z",
+              "WhenOpened": "2024-11-04T03:25:10.976Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "clsMainScreen.h",
-              "DocumentMoniker": "D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\clsMainScreen.h",
-              "RelativeDocumentMoniker": "clsMainScreen.h",
-              "ToolTip": "D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\clsMainScreen.h",
-              "RelativeToolTip": "clsMainScreen.h",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAADoAAAAmAAAA",
+              "Title": "clsDepositScreen.h",
+              "DocumentMoniker": "D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\clsDepositScreen.h",
+              "RelativeDocumentMoniker": "clsDepositScreen.h",
+              "ToolTip": "D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\clsDepositScreen.h",
+              "RelativeToolTip": "clsDepositScreen.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-01T06:59:48.877Z",
+              "WhenOpened": "2024-11-04T03:24:28.305Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "clsCurrency.h",
-              "DocumentMoniker": "D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\clsCurrency.h",
-              "RelativeDocumentMoniker": "clsCurrency.h",
-              "ToolTip": "D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\clsCurrency.h",
-              "RelativeToolTip": "clsCurrency.h",
-              "ViewState": "AQIAAI4AAAAAAAAAAAAAAMkAAAAAAAAA",
+              "DocumentIndex": 4,
+              "Title": "clsWithdrawScreen.h",
+              "DocumentMoniker": "D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\clsWithdrawScreen.h",
+              "RelativeDocumentMoniker": "clsWithdrawScreen.h",
+              "ToolTip": "D:\\OneDrive\\Programming Advices\\GitHub Project\\OOP_System_Bank\\System_Bank_Use-OOP\\clsWithdrawScreen.h",
+              "RelativeToolTip": "clsWithdrawScreen.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-03T02:33:20.627Z",
+              "WhenOpened": "2024-11-04T03:26:15.236Z",
               "EditorCaption": ""
             }
           ]
